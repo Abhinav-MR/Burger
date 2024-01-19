@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-size: larger;
+}
+.collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    h1{
+        font-family: Pacifico;
+    }
+    .navbar-brand{
+        font-family: Pacifico;
+        font-weight:bolder;
+        text-shadow:2px 4px 6px;
+    }
+    .rounded-circle:hover {
+        transform: scale(1.1); /* Increase the size on hover */
+        transition: transform 0.3s ease; /* Add a smooth transition effect */
+        border: 2px solid red; /* Change the border color on hover */
+      }
+      .menu-card {
+        display: none; /* Initially hide all menu cards */
+      }
+      .container{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+       
+        background-color: rgb(30, 30, 65);
+
+      }
+    
+      
+      .box1{
+        margin-left: 200px;
+      }
+     
+
+
+
+      footer{
+        background-color: rgb(24, 24, 56);
+        color: white;
+      
+      }
+      .last{
+        margin-left: 150px;
+      }
+      .card:hover{
+        box-shadow: 0 2px 4px 8px rgb(83, 75, 75);
+         transform: scale(1.05);
+         transition: transform 0.3s ease-in-out;
+      }
+
+      .nav-pills .nav-link {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255); /* Change text color to white or any contrasting color */
+      }
+    
+      .nav-pills .nav-link.active {
+        background-color: rgb(35, 32, 67);
+      }
+      
